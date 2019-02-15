@@ -1,3 +1,49 @@
 /*
  * Estilos de tu proyecto
  */
+
+
+
+
+/* header  */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 85vh;
+    background: url(../assets/images/hero.gif)  no-repeat center;
+    background-size: cover;
+    font-size: 25px;
+}
+
+header img {
+    width: 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 45%;
+    justify-content: flex-start;
+}
+
+
+
+/* aside inside header */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    align-self: center;
+    background-color: white;
+    opacity: .8;
+    width: 40%;
+}
+
+
+
