@@ -2,7 +2,11 @@
  * Estilos de tu proyecto
  */
 
-
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 
 
 /* header  */
@@ -31,19 +35,89 @@ header img {
     justify-content: flex-start;
 }
 
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: inherit;
+    
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+}
 
-
-/* aside inside header */
-
-aside {
-    display: flex;
-    flex-direction: column;
-    margin: 1px;
-    align-self: center;
-    background-color: white;
-    opacity: .8;
-    width: 40%;
+nav a:hover,  nav a:active{
+    border: solid 1px white;
 }
 
 
 
+/* asides */
+
+header aside, .iframe aside {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    padding: 15px;
+    align-self: center;
+    background-color: white;
+    opacity: ;
+    width: 44%;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn a, h3 {
+    font-size: 15px;
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 8px;
+}
+
+.btn-rosa {
+    background-color: #FF00BF; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px;
+  }
+  
+  .btn-rosa:hover {
+    background-color: rgb(189, 99, 166); 
+  }
+
+  h1 {
+      color: #352384;
+  }
+
+  input {
+      width: 90%;
+      border-width: 0 0 1px 0;
+      border-color: rgb(88, 87, 87)
+  }
+
+/* first section */
+
+.purple {
+    display: flex;
+    align-content: center;
+    color: white;
+    background-image: linear-gradient(#76278F, #2B1E66);
+    opacity: .9;
+    margin: 0px;
+}
+
+.purple h3 {
+    color: inherit;
+}
