@@ -8,6 +8,11 @@ body {
     color: white;
 }
 
+.back {
+    display: flex;
+    align-items: center;
+}
+
 
 /* header  */
 
@@ -110,14 +115,24 @@ p {
 /* first section */
 
 .purple {
-    display: flex;
-    align-content: center;
     color: white;
-    background-image: linear-gradient(#76278F, #2B1E66);
+    background-image: linear-gradient(rgb(76, 15, 100), #2B1E66);
     opacity: .9;
     margin: 0px;
 }
 
-.purple h3 {
-    color: inherit;
+.purple h3, .purple h2 {
+    color: inherit
 }
+
+.purple h3 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/* scnd section */
+
+.iframe {
+    color: black;
+}
+
