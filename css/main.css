@@ -11,7 +11,16 @@ body {
 .back {
     display: flex;
     align-items: center;
+    
 }
+
+.iframe aside {
+    color: black;
+}
+
+
+
+
 
 
 /* header  */
@@ -68,7 +77,7 @@ header aside, .iframe aside {
     align-self: center;
     background-color: white;
     opacity: ;
-    width: 44%;
+    width: 56.5%;
 }
 
 .btn {
@@ -132,7 +141,4 @@ p {
 
 /* scnd section */
 
-.iframe {
-    color: black;
-}
 
