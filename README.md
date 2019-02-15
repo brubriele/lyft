@@ -10,5 +10,5 @@ O resultado desejado para a réplica do site **Lyft** e é este:
 
 ## Objetivos atingidos
 
-Sendo este o resultado final obtido ao final do desafio (em construção) [Lyft GitHub Pages](https://brubriele.github.io/lyft/).
+Sendo este o resultado obtido ao final do desafio [Lyft GitHub Pages](https://brubriele.github.io/lyft/).
 
