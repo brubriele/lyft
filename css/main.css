@@ -8,10 +8,9 @@ body {
     color: white;
 }
 
-.back {
+.back, .blocos {
     display: flex;
     align-items: center;
-    
 }
 
 .iframe aside {
@@ -145,6 +144,67 @@ p {
 footer {
     display: flex;
     background-color: #333447;
+    font-weight: 100;
+    padding: 5%;
 }
+
+.primeiro, .segundo, .terceiro, .quarto {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.bloco * {
+    color: white;
+    text-decoration: none;
+}
+
+.bloco a:hover {
+    color: #FF00BF;
+}
+
+.bloco a {
+    
+}
+
+.quarto img {
+    width: 20%;
+}
+
+/* icons */
+
+small {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333447;
+}
+ i{
+     padding: 25px;
+ }
+
+.fab, .final *, small * {
+    color: white;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333447;
+    
+}
+
+
+hr {
+    width: 80%;
+    background-color: white;
+    border: 0.5px solid white;
+    
+    
+}
+
+
 
 
